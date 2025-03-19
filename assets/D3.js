@@ -123,7 +123,7 @@ let femaleCharacter = [];
 for (let i = 0; i < starWarsCharacters.length; i++) {
   personaggiFemminili = starWarsCharacters[i].gender;
   if (personaggiFemminili === "female") {
-    femaleCharacter.push(starWarsCharacters[i].name);
+    femaleCharacter.push(starWarsCharacters[i]);
   }
 }
 console.log(femaleCharacter);
